@@ -15,7 +15,7 @@ int factorial(int n){
 		n=1;
 	}
 	else{
-		n=n*factorial(n-1); /*AquÌ la funciÛn se est· llamando dentro de ella, es por eso que
+		n=n*factorial(n-1); /*Aqu√≠ la funci√≥n se est√° llamando dentro de ella, es por eso que
 		es recursiva.*/
 	}
 	return n;
